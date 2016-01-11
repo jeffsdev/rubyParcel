@@ -5,7 +5,7 @@ Takes the dimensions and weight of a parcel and determines the cost to ship and 
 
 ## Use
 
-`git clone `
+`git clone https://github.com/Vawx/parcel_sinatra`
 
 Run `bundle install`
 
