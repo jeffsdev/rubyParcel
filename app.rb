@@ -16,5 +16,6 @@ get('/result') do
 
   @vol_result = @parcel.volume
   @cost_result = @parcel.cost_to_ship
+
   erb(:result)
 end

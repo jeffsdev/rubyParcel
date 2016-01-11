@@ -10,7 +10,7 @@ class Parcel
     return @height * @width * @depth
   end
   define_method(:cost_to_ship) do
-    return (volume / 12) * 0.5 + @weight
+    return ( ( volume.to_f / 12) * 0.5 + @weight ).round(2)
   end
 
 
