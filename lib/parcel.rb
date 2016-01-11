@@ -8,4 +8,9 @@ class Parcel
   define_method(:volume) do
     return @height * @width * @depth
   end
+  define_method(:cost_to_ship) do
+    return volume * 1.25 + @weight
+  end
+
+
 end
