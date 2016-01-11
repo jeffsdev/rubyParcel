@@ -18,6 +18,5 @@ get('/result') do
   @vol_result = @parcel.volume.to_s + " inches squared."
   @cost_result = "$" + @parcel.cost_to_ship(@wrapped == "Yes").to_s
 
-        binding.pry
   erb(:result)
 end

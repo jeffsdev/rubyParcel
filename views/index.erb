@@ -1,28 +1,36 @@
-<h1>Parcel</h1>
-
-<form action="/result" method="">
-  <div class="">
-    <label for="">Enter height</label>
-    <input type="text" id="h" name="h" value="">
+<header>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Parcel</h1>
+      <p>Send your stuff.</p>
+    </div>
   </div>
-  <div class="">
-    <label for="">Enter width</label>
-    <input type="text" id="w" name="w" value="">
+</header>
+<form action="/result">
+  <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+    <div class="form-group">
+      <label for="">Enter height</label>
+      <input class="form-control" type="text" id="h" name="h" value="">
+    </div>
+    <div class="form-group">
+      <label for="">Enter width</label>
+      <input class="form-control" type="text" id="w" name="w" value="">
+    </div>
+    <div class="form-group">
+      <label for="">Enter depth</label>
+      <input class="form-control" type="text" id="d" name="d" value="">
+    </div>
+    <div class="form-group">
+      <label for="">Enter weight</label>
+      <input class="form-control" type="text" id="weight" name="weight" value="">
+    </div>
+    <div class="">
+      <label for="">Would you like this gift wrapped?</label>
+      <select id="wrapped" name="wrapped">
+        <option>No</option>
+        <option>Yes</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
   </div>
-  <div class="">
-    <label for="">Enter depth</label>
-    <input type="text" id="d" name="d" value="">
-  </div>
-  <div class="">
-    <label for="">Enter weight</label>
-    <input type="text" id="weight" name="weight" value="">
-  </div>
-  <div class="">
-    <label for="">Would you like this gift wrapped?</label>
-    <select id="wrapped" name="wrapped">
-      <option>No</option>
-      <option>Yes</option>
-    </select>
-  </div>
-  <button type="submit" id="send">Submit</button>
 </form>
