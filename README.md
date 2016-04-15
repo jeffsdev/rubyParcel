@@ -1,13 +1,20 @@
-# Parcel
+# Parcel Shipping Cost Calculator
+
+#### By Jeff Seymour, Kyle Langley
 
 ## Description
-Takes the dimensions and weight of a parcel and determines the cost to ship and the volume of the parcel.
+Checks to make sure user input is a valid triangle. If it is, returns what type of triangle it is: equilateral, isosceles, scalene.
 
-## Use
+## Technologies Used
+HTML, CSS, Ruby, RSpec, Capybara, Sinatra
 
-`git clone https://github.com/Vawx/parcel_sinatra`
-
-Run `bundle install`
+## Setup
+Clone repository  
+```bundle install```  
+```ruby app.rb```  
+View in browser at localhost:4567
 
 ## License
-MIT. <2015> Epicodus.
+Copyright (c) 2016 Jeff Seymour
+
+This software is licensed under the MIT license.
