@@ -3,7 +3,7 @@
 #### By Jeff Seymour, Kyle Langley
 
 ## Description
-Checks to make sure user input is a valid triangle. If it is, returns what type of triangle it is: equilateral, isosceles, scalene.
+Takes the dimensions and weight of a parcel and determines the cost to ship and the volume of the parcel.
 
 ## Technologies Used
 HTML, CSS, Ruby, RSpec, Capybara, Sinatra
